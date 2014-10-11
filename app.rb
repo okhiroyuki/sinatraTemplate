@@ -3,5 +3,5 @@ require 'sinatra/activerecord'
 require './model.rb'
 
 get '/' do
-  'hoge'
+  erb :index
 end
